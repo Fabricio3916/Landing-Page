@@ -6,11 +6,15 @@
 }
 
 .menu{
+    height: 60px;
     width: 100%;
     background-color: #181818;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 
 .menu h1{
@@ -28,4 +32,52 @@
 
 .menu a:hover{
     color: rgb(224, 188, 25);
+}
+
+.imagem-titulo{
+    background-image: url("images/imagem-titulo.webp");
+    background-size: 100% 100%;
+    height: calc(100vh - 60px);
+    width: 100%;
+    
+}
+
+.quem-somos{
+    width: 100%;
+    background-color: #181818;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quem-somos-items{
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    
+}
+
+.quem-somos h2{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.quem-somos p{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.quem-somos img{
+    max-width: 650px;
+    max-height: 500px;
+    border-radius: 22px;
+    opacity: 0.7;
+}
+
+.quem-somos img:hover{
+    opacity: 1;
 }
