@@ -31,11 +31,12 @@
 }
 
 .menu a:hover{
-    color: rgb(224, 188, 25);
+    color: rgb(226, 194, 50);
 }
 
 .imagem-titulo{
-    background-image: url("images/imagem-titulo.webp");
+    background-image: url("images/frontpage.jpg");
+    /* background-image: url(images/imagem-titulo.webp); */
     background-size: 100% 100%;
     height: calc(100vh - 60px);
     width: 100%;
@@ -45,7 +46,7 @@
 .quem-somos{
     width: 100%;
     background-color: #181818;
-    height: 100vh;
+    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,12 +62,12 @@
 }
 
 .quem-somos h2{
-    color: #FFFFFF;
+    color: rgb(190, 190, 189);
     font-size: 32px;
 }
 
 .quem-somos p{
-    color: #FFFFFF;
+    color: rgb(190, 190, 189);
     font-size: 20px;
     margin-right: 50px;
 }
